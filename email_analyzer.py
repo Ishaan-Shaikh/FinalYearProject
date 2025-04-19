@@ -13,7 +13,7 @@ def load_rules(rule_file):
 
 # 2. Parse .eml file
 def parse_email(email_path):
-    with open(emails/sample.eml, 'rb') as f:
+    with open("emails/sample.eml", 'rb') as f:
         msg = BytesParser(policy=policy.default).parse(f)
     
     body = msg.get_body(preferencelist=('plain', 'html'))
