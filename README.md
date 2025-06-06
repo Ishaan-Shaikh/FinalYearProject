@@ -6,7 +6,7 @@ This project aims to detect malicious emails (e.g., phishing, spam, or malware-l
 The project is designed as a proof-of-concept for email security and can be extended or integrated into larger systems for real-time email filtering.
 
 ## Features
-- Detects malicious emails based on predefined rules.
+- Detects malicious emails based on predefined rules. (New rules yet to be added.)
 - Analyzes email content for suspicious keywords and phrases.
 - Checks sender information and domain reputation.
 - Identifies malicious URLs and attachments.
